@@ -9,7 +9,7 @@ function CarouselBar() {
           <img
             src={img}
             alt="Carousel item"
-            className="w-full sm:w-[500px] 2xl:w-[800px]"
+            className="w-[425ox] sm:w-[500px] 2xl:w-[800px]"
           />
         </div>
       ))}

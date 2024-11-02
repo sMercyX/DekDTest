@@ -1,37 +1,37 @@
 export const data = [
     {   
         id:1,
-        title:'ระบบเจ้าสักนักสัมติงจิงเกอเบลไอโนวไอยูวีเดย์',
-        author:'lilG',
+        title:'Study Group',
+        author:'Hyungwuk Shin',
         chapter:'2',
         date: '2023-01-01',
-        img:'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        img:'https://i.namu.wiki/i/oaAcsB9DwdSrXT0H0kLyuzMrKnWwkRB1-OQxJ7W2U_SDcOC-ogXtYtLwNpJy0Krjfi_-Ovizv_xYXaaU4_ubUg.webp'
     },
     {
         id:2,
-        title:'ระบบเจ้าสักนักสัมติงจิงเกอเบลไอโนวไอยูวีเดย์',
-        author:'lilG',
-        chapter:'2',
+        title:'Solo Leveling',
+        author:'Chugong',
+        chapter:'5',
         date: '2023-01-01',
-        img:'https://images.unsplash.com/photo-1504893524553-b855bce32c67?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        img:'https://storage.naiin.com/system/application/bookstore/resource/product/202212/568726/1000257561_front_XXL.jpg?imgname=Solo-Leveling-5-(Mg)'
     },    
     {
         id:3,
-        title:'ระบบเจ้าสักนักสัมติงจิงเกอเบลไอโนวไอยูวีเดย์',
-        author:'lilG',
-        chapter:'2',
+        title:"OminiOmniscient Reader's Viewpoint",
+        author:'Sing Shong',
+        chapter:'14',
         date: '2023-01-01',
 
-        img:'https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?q=80&w=2865&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        img:'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSYIj3G6Mhbzto6ASqKORu0dCbpPUGYEIbO9b928C9KqY-WREYFFnudlH8a-PUpVdyLS0k7WiwxnJdGMIR3kTE6ExxcHiYjze4hbWulQcy_&usqp=CAE'
     },    
     {
         id:4,
-        title:'ระบบเจ้าสักนักสัมติงจิงเกอเบลไอโนวไอยูวีเดย์',
-        author:'lilG',
-        chapter:'2',
+        title:'Jungle Juice',
+        author:'Eun Hyeong',
+        chapter:'5',
         date: '2023-01-01',
 
-        img:'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        img:'https://m.media-amazon.com/images/I/81463VNfjjL._AC_UF1000,1000_QL80_.jpg'
     },
     
 ]

@@ -78,7 +78,7 @@ function AddBook({ onAdd ,book}) {
         <div className="flex justify-end">
           <button
             type="button"
-            onClick={() => onAdd(null)} // Close form without adding if clicked
+            onClick={() => onAdd(null)} 
             className="text-sm px-4 py-2 mr-2 text-gray-500 border border-gray-300 rounded-lg"
           >
             ยกเลิก
