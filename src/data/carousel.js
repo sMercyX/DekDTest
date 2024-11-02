@@ -9,7 +9,7 @@ export const data = [
     },
     {
         id:3,
-        img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq0UA84SVAi3ZLmAZubjP9Bdcsa6nVgL2qig&s'
+        img:'https://thathashtagshow.com/wp-content/uploads/2023/03/JP_Chapter_1.jpg'
     },
     {
         id:4,
@@ -17,6 +17,6 @@ export const data = [
     },
     {
         id:5,
-        img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8DbdLrF0p4XGbUUvDDSXjfkqtpi1n7j8Wrw&s'
+        img:'https://boundingintocomics.com/wp-content/uploads/2022/10/2022.10.26-05.08-boundingintocomics-635969a551b43.png'
     },
 ]
