@@ -49,7 +49,7 @@ function BookMark() {
               setCurrentBook(null);
               setisAddEditBookOpen(true);
             }}
-            className="text-xs lg:text-base py-1 px-3 text-gray-400 border rounded-full border-gray-400"
+            className="text-xs lg:text-base py-1 px-3 text-gray-400 border rounded-full border-gray-400 hover:bg-black hover:text-white hover:scale-110 transition-all"
           >
             เพิ่ม
           </button>

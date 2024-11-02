@@ -22,56 +22,56 @@ function AddBook({ onAdd ,book}) {
         <h2 className="text-xl font-semibold mb-4">เพิ่มหนังสือใหม่</h2>
         
         <div className="mb-3">
-          <label className="block text-sm font-medium text-gray-700">ชื่อเรื่อง</label>
+          <label className=" text-sm font-medium text-gray-700">ชื่อเรื่อง</label>
           <input
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md p-2"
+            className="mt-1  w-full border border-gray-300 rounded-md p-2"
             required
           />
         </div>
 
         <div className="mb-3">
-          <label className="block text-sm font-medium text-gray-700">ผู้แต่ง</label>
+          <label className=" text-sm font-medium text-gray-700">ผู้แต่ง</label>
           <input
             type="text"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md p-2"
+            className="mt-1  w-full border border-gray-300 rounded-md p-2"
             required
           />
         </div>
 
         <div className="mb-3">
-          <label className="block text-sm font-medium text-gray-700">ตอนที่</label>
+          <label className=" text-sm font-medium text-gray-700">ตอนที่</label>
           <input
             type="text"
             value={chapter}
             onChange={(e) => setChapter(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md p-2"
+            className="mt-1  w-full border border-gray-300 rounded-md p-2"
             required
           />
         </div>
 
         <div className="mb-3">
-          <label className="block text-sm font-medium text-gray-700">วันที่</label>
+          <label className=" text-sm font-medium text-gray-700">วันที่</label>
           <input
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md p-2"
+            className="mt-1  w-full border border-gray-300 rounded-md p-2"
             required
           />
         </div>
 
         <div className="mb-3">
-          <label className="block text-sm font-medium text-gray-700">URL รูปภาพ</label>
+          <label className=" text-sm font-medium text-gray-700">URL รูปภาพ</label>
           <input
             type="text"
             value={img}
             onChange={(e) => setImg(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md p-2"
+            className="mt-1  w-full border border-gray-300 rounded-md p-2"
           />
         </div>
 
