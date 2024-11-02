@@ -3,16 +3,17 @@ import { data } from '../data/carousel';
 
 function CarouselBar() {
   return (
-    <div className="carousel overflow-x-auto snap-x snap-mandatory scroll-smooth carousel-center w-[100%] h-[250px] gap-5 sm:h-[300px] 2xl:h-[400px]">
+    <div className=" flex   items-center h-[250px] gap-5 sm:h-[300px] 2xl:h-[400px] "> 
+      <ul className='flex overflow-x-auto gap-6 snap-x snap-mandatory'>
       {data.map(({ id, img }) => (
-        <div key={id} className="carousel-item snap-center flex-shrink-0">
-          <img
-            src={img}
-            alt="Carousel item"
-            className="w-[425ox] sm:w-[500px] 2xl:w-[800px]"
+        <li key={id} className='shrink-0 snap-center'>
+          <img src={img} alt="" 
+          className="w-[425px] sm:w-[500px] 2xl:w-[800px] h-full"
           />
-        </div>
+        </li>
       ))}
+      </ul>
+      
     </div>
   );
 }

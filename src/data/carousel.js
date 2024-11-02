@@ -18,5 +18,5 @@ export const data = [
     {
         id:5,
         img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8DbdLrF0p4XGbUUvDDSXjfkqtpi1n7j8Wrw&s'
-    }
+    },
 ]
